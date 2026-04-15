@@ -9,13 +9,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>library-lucene</artifactId>
-    <version>6.0.1-SNAPSHOT</version>
+    <version>6.0.1-POC-SOLRSERVER-SNAPSHOT</version>
     <packaging>lutece-plugin</packaging>
     <name>Lutece Analyzers and indexers</name>
     <description>Analyzers and indexers for search with Lucene</description>
     
     <properties>
-        <luceneVersion>8.10.0</luceneVersion> <!-- lucene components version -->
+        <luceneVersion>10.3.2</luceneVersion> <!-- lucene components version -->
         <componentName>lucene</componentName>
         <jiraProjectName>LUCENE</jiraProjectName>
         <jiraComponentId>10351</jiraComponentId>
@@ -78,7 +78,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-analyzers-common</artifactId>
+            <artifactId>lucene-analysis-common</artifactId>
             <version>${luceneVersion}</version>
         </dependency>        
     </dependencies>
